@@ -158,5 +158,4 @@ Cross-encoder model re-scores candidates for relevance:
 # Initial retrieval: 20 candidates
 # Re-ranking
 =======
-# MultiAgent-FinanceInsight-10kAnalyst
->>>>>>> a5037d094287f043f87167bb568962a89881bb37
+
