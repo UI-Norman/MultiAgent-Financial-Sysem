@@ -59,7 +59,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Setup environment variables
-cp .env.example .env
+touch .env
 # Edit .env and add your OPENAI_API_KEY
 
 # 5. Start PostgreSQL and Redis
@@ -152,6 +152,7 @@ Combines dense (semantic) and sparse (keyword) retrieval:
 - **Dense**: Sentence-BERT embeddings for semantic similarity
 - **Sparse**: BM25 for exact keyword matching
 - **Fusion**: RRF (Reciprocal Rank Fusion) to merge results
+
 
 
 
