@@ -1,0 +1,54 @@
+# Core Framework
+phidata
+typer
+rich
+python-dotenv
+
+# LLM & Embeddings
+openai
+anthropic
+
+# RAG & Vector Stores
+langchain
+langchain-community
+sentence-transformers
+chromadb
+rank-bm25
+
+# Database
+psycopg[binary]
+psycopg2-binary
+sqlalchemy
+pgvector
+redis
+
+# Market Data
+yfinance
+
+# SEC Filing Parsing
+beautifulsoup4
+lxml
+pdfplumber
+pypdf
+requests
+
+# Utilities
+pandas
+numpy
+python-dateutil
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+
+# Observability
+structlog
+prometheus-client
+
+# Development
+black
+flake8
+mypy
+pre-commit
