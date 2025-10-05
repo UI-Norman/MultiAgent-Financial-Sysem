@@ -153,12 +153,7 @@ Combines dense (semantic) and sparse (keyword) retrieval:
 - **Sparse**: BM25 for exact keyword matching
 - **Fusion**: RRF (Reciprocal Rank Fusion) to merge results
 
-### 3. Re-ranking
-Cross-encoder model re-scores candidates for relevance:
-```python
-# Initial retrieval: 20 candidates
-# Re-ranking
-=======
+
 
 
 
