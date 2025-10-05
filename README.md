@@ -12,7 +12,8 @@ A production-ready multi-agent system for analyzing US-listed companies using SE
 - **Production Features**: Structured logging, cost tracking, Docker deployment, comprehensive tests
 
 ---
-
+## Architecture Diagram
+![Architecture Diagram](Architecture_diagram.png)
 ## 🏗️ Architecture
 
 ### Agent Roles
@@ -158,4 +159,5 @@ Cross-encoder model re-scores candidates for relevance:
 # Initial retrieval: 20 candidates
 # Re-ranking
 =======
+
 
