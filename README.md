@@ -48,8 +48,8 @@ A production-ready multi-agent system for analyzing US-listed companies using SE
 
 ```bash
 # 1. Clone repository
-git clone <your-repo-url>
-cd financial-agent-system
+git clone https://github.com/UI-Norman/MultiAgent-Financial-Sysem.git
+cd MultiAgent-Financial-Sysem
 
 # 2. Create virtual environment
 python -m venv venv
@@ -159,5 +159,6 @@ Cross-encoder model re-scores candidates for relevance:
 # Initial retrieval: 20 candidates
 # Re-ranking
 =======
+
 
 
