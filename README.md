@@ -148,10 +148,9 @@ Sub-queries:
 ```
 
 ### 2. Hybrid Search
-Combines dense (semantic) and sparse (keyword) retrieval:
-- **Dense**: Sentence-BERT embeddings for semantic similarity
-- **Sparse**: BM25 for exact keyword matching
-- **Fusion**: RRF (Reciprocal Rank Fusion) to merge results
+Combines dense (semantic) and sparse (keyword-based) retrieval to deliver more accurate and context-aware results.
+Implements this core functionality in a clean and efficient manner for optimal information retrieval.
+
 
 
 
