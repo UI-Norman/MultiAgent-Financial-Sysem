@@ -28,7 +28,7 @@ A production-ready multi-agent system for analyzing US-listed companies using SE
 ### Technology Stack
 
 - **Framework**: phidata for agent orchestration
-- **LLM**: OpenAI GPT-4o / Anthropic Claude
+- **LLM**: OpenAI GPT-4o 
 - **Vector DB**: PostgreSQL + pgvector
 - **Cache**: Redis for session memory
 - **Market Data**: yfinance (Yahoo Finance API)
@@ -40,7 +40,7 @@ A production-ready multi-agent system for analyzing US-listed companies using SE
 
 ### Prerequisites
 
-- Python 3.10+
+- Python 3.11
 - Docker & Docker Compose
 - OpenAI API key
 
@@ -68,8 +68,6 @@ docker-compose up -d postgres redis
 # 6. Initialize database
 python -m core.knowledge_base init
 
-# 7. Index 10-K filings (example: NVDA last 5 years)
-python data/seed_data.py --ticker NVDA --years 5
 ```
 
 ### Run Analysis
@@ -150,6 +148,10 @@ Sub-queries:
 ### 2. Hybrid Search
 Combines dense (semantic) and sparse (keyword-based) retrieval to deliver more accurate and context-aware results.
 Implements this core functionality in a clean and efficient manner for optimal information retrieval.
+### 3. Reindexing
+Integrates an automated reindexing functionality that updates the vector and keyword stores whenever new data is added or modified.
+This ensures the RAG system always retrieves from the most current and consistent knowledge base.
+
 
 
 
